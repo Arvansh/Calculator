@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standard Calculator of Arvansh</title>
+  <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+  <div class="sideBar">
+    
+  </div>
+  <div class="container">
+    <div class="display">
+      <label for="" id="display"></label>
+    </div>
+    <div class="numpad">
+      <button class="op" id="clear">C</button>
+      <button class="n" onclick="appendToDisplay('7')">7</button>
+      <button class="n" onclick="appendToDisplay('8')">8</button>
+      <button class="n" onclick="appendToDisplay('9')">9</button>
+      <button class="op" onclick="appendToDisplay('+')">+</button>
+      <button class="n" onclick="appendToDisplay('4')">4</button>
+      <button class="n" onclick="appendToDisplay('5')">5</button>
+      <button class="n" onclick="appendToDisplay('6')">6</button>
+      <button class="op" onclick="appendToDisplay('-')">-</button>
+      <button class="n" onclick="appendToDisplay('1')">1</button>
+      <button class="n" onclick="appendToDisplay('2')">2</button>
+      <button class="n" onclick="appendToDisplay('3')">3</button>
+      <button class="op" onclick="appendToDisplay('*')">*</button>      
+      <button class="n" onclick="appendToDisplay('(')">(</button>
+      <button class="n" onclick="appendToDisplay('0')">0</button>
+      <button class="n" onclick="appendToDisplay(')')">)</button>
+      <button class="op" onclick="appendToDisplay('/')">/</button>
+      <button class="n" onclick="appendToDisplay('.')">.</button>
+      <button id="calc">=</button>
+    </div>
+  </div>
+  <script src="Calculator.js"></script>
+</body>
+</html>
